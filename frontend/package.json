@@ -1,0 +1,89 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:5000",
+  "dependencies": {
+    "@codemirror/autocomplete": "^6.18.6",
+    "@codemirror/basic-setup": "^0.20.0",
+    "@codemirror/closebrackets": "^0.19.2",
+    "@codemirror/commands": "^6.8.1",
+    "@codemirror/gutter": "^0.19.9",
+    "@codemirror/lang-cpp": "^6.0.2",
+    "@codemirror/lang-css": "^6.3.1",
+    "@codemirror/lang-html": "^6.4.9",
+    "@codemirror/lang-java": "^6.0.1",
+    "@codemirror/lang-javascript": "^6.2.3",
+    "@codemirror/lang-python": "^6.2.0",
+    "@codemirror/language": "^6.11.0",
+    "@codemirror/matchbrackets": "^0.19.4",
+    "@codemirror/rectangular-selection": "^0.19.2",
+    "@codemirror/search": "^6.5.10",
+    "@codemirror/state": "^6.5.2",
+    "@codemirror/theme-one-dark": "^6.1.2",
+    "@codemirror/view": "^6.36.7",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@tsparticles/react": "^3.0.0",
+    "@tsparticles/slim": "^3.0.0",
+    "@uiw/react-codemirror": "^4.21.2",
+    "agora-rtc-sdk-ng": "^4.23.3",
+    "axios": "^1.8.4",
+    "codemirror": "^5.65.2",
+    "file-saver": "^2.0.5",
+    "firebase": "^11.6.1",
+    "lucide-react": "^0.507.0",
+    "peerjs": "^1.5.4",
+    "react": "^19.1.0",
+    "react-avatar": "^5.0.3",
+    "react-dom": "^19.1.0",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^7.5.1",
+    "react-scripts": "5.0.1",
+    "react-scroll-to-bottom": "^4.2.0",
+    "simple-peer": "^9.11.1",
+    "socket.io-client": "^4.8.1",
+    "uuid": "^11.1.0",
+    "web-vitals": "^2.1.4",
+    "y-codemirror.next": "^0.3.5",
+    "y-websocket": "^3.0.0",
+    "yjs": "^13.6.26"
+  },
+  "engines": {
+    "npm": ">=10.0.0 <11.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "vercel-build": "npm install --legacy-peer-deps && npm run build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17"
+  }
+}
