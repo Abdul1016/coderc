@@ -4,7 +4,7 @@ import { Camera, Mic, MicOff, Monitor, Phone, Video, VideoOff } from 'lucide-rea
 
 // Move credentials to environment variables in production
 const APP_ID = '712f72b0c5ed413299df9bab345526f3';
-const TOKEN = '007eJxTYLCe4lC8SFD9xJSZH6daOd3btXayVYDaNMfjtX8/VXkxH2hXYDA3NEozN0oySDZNTTExNDaytExJs0xKTDI2MTU1Mksz/tdlkNEQyMhw9ud2JkYGCATxORhyMstSi/LzcxkYAP1dIoI=';
+const TOKEN = '007eJxTYMg032i0LsdwgbJdSIuJZ8up4tX7TR5IfHCRsOP5Y6EnMEGBwdzQKM3cKMkg2TQ1xcTQ2MjSMiXNMikxydjE1NTILM1YZHd6RkMgI0PRR15GRgYIBPE5GHIyy1KL8vNzGRgA41QeEg==';
 const CHANNEL = 'liveroom';
 
 const AgoraVideoChat = ({ roomId = CHANNEL, onError }) => {
